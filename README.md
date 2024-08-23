@@ -25,3 +25,8 @@ gift management [available in stock and given away]
 Stay management [rooms] [what i have written with extended capabilties]
 
 Shopping management
+
+
+# Trivia
+
+Most maker-checker (4 eyes) applications used in : Government portals (BMTC , TANGEDCO / MESCOM / BESCOM , SEVA) , travel ticket booking systems (IRCTC / BUS ticket) , HRMS , compliance checks , centralised document repo , review code changes , IAM
