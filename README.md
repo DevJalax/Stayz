@@ -26,6 +26,7 @@ Stay management [rooms] [what i have written with extended capabilties]
 
 Shopping management
 
+Cinema management [Set design , casting , distribution , stunts , videography , music , story , light/sound , dance , vfx , costume , prodn]
 
 # Trivia
 
