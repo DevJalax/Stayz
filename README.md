@@ -28,6 +28,8 @@ Shopping management
 
 Cinema management [Set design , casting , distribution , stunts , videography , music , story , light/sound , dance , vfx , costume , prodn]
 
+Wikipedia [pollution control , species heirarchy , geography , virology + vaccines , mental health , caste heirarchy , fashion , cuisine , minerals and metallurgy , vegetables , fruits , oils]
+
 # Trivia
 
 Most maker-checker (4 eyes) applications used in : Government portals (BMTC , TANGEDCO / MESCOM / BESCOM , SEVA) , travel ticket booking systems (IRCTC / BUS ticket) , HRMS , compliance checks , centralised document repo , review code changes , IAM
