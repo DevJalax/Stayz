@@ -81,3 +81,7 @@ Customer reviews.
 # Trivia
 
 Most maker-checker (4 eyes) applications used in : Government portals (BMTC , TANGEDCO / MESCOM / BESCOM , SEVA) , travel ticket booking systems (IRCTC / BUS ticket) , HRMS , compliance checks , centralised document repo , review code changes , IAM
+
+# Real time players
+
+Treebo , Airbnb , Booking.com , MakeMyTrip , FabHotels , Zostel , Trivago
