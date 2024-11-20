@@ -78,6 +78,27 @@ Amenities (Wi-Fi, AC, pool).
 Proximity to landmarks or attractions.
 Customer reviews.
 
+12) Location-Based Room Recommendations:
+
+a) Suggest rooms based on proximity to the user’s preferences (e.g., near the elevator or with a city view).
+Use geofencing for property-wide notifications (e.g., "Welcome to Treebo! Your room is ready.").
+Time of Day Customizations:
+
+b) Automatically adjust check-in/check-out reminders based on local time zones.
+Prioritize cleaning and maintenance updates for rooms during off-peak hours.
+Device-Aware User Experience:
+
+c) Provide a mobile-optimized interface for on-the-go users.
+Offer voice-assisted room control for smart devices (e.g., Alexa, Google Assistant).
+
+13) Activity-Based Notifications:
+
+Notify users about available upgrades, discounts, or dining options based on their activity (e.g., frequent bookings or waitlisted users).
+
+14) Send personalized notifications:
+"Room 102 is now available! Book before it's taken."
+"Based on your waitlist, an executive suite will free up tomorrow."
+
 # Trivia
 
 Most maker-checker (4 eyes) applications used in : Government portals (BMTC , TANGEDCO / MESCOM / BESCOM , SEVA) , travel ticket booking systems (IRCTC / BUS ticket) , HRMS , compliance checks , centralised document repo , review code changes , IAM
