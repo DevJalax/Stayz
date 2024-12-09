@@ -78,7 +78,9 @@ Amenities (Wi-Fi, AC, pool).
 Proximity to landmarks or attractions.
 Customer reviews.
 
-12) Location-Based Room Recommendations:
+12) Kitchen hygiene and product expiry check from IOT data of refrigrator
+
+13) Location-Based Room Recommendations:
 
 a) Suggest rooms based on proximity to the user’s preferences (e.g., near the elevator or with a city view).
 Use geofencing for property-wide notifications (e.g., "Welcome to Treebo! Your room is ready.").
@@ -91,11 +93,11 @@ Device-Aware User Experience:
 c) Provide a mobile-optimized interface for on-the-go users.
 Offer voice-assisted room control for smart devices (e.g., Alexa, Google Assistant).
 
-13) Activity-Based Notifications:
+14) Activity-Based Notifications:
 
 Notify users about available upgrades, discounts, or dining options based on their activity (e.g., frequent bookings or waitlisted users).
 
-14) Send personalized notifications:
+15) Send personalized notifications:
 "Room 102 is now available! Book before it's taken."
 "Based on your waitlist, an executive suite will free up tomorrow."
 
