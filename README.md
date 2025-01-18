@@ -1,105 +1,39 @@
-# Stayz - room status check
-
-spring boot application with scheduler that runs every day at 12 am and updates the room status whether its available or booked , when it will be next free , 
-how many people are in waitlist for rooms based on room type [normal or executive suite etc]. 
-
-Implemented maker checker functionality where maker updates the room status and checker verifies or denies that room status update realtime.
-
+# Stayz - room booking app
 
 # To-do in future
 
-1. Dynamic Room Allocation with AI/ML
-Implement a recommendation system using AI/ML to allocate rooms dynamically based on:
-Customer preferences.
-Booking trends.
-Loyalty programs.
-For instance, customers with high loyalty points can be given preference in the waitlist.
+Features: 
 
-2. Real-Time Notifications
-Integrate a notification system to notify users about:
-Room availability.
-Waitlist updates.
-Booking confirmations or cancellations.
-Use email, SMS, or push notifications.
-For example, integrate services like Twilio for SMS and Firebase for push notifications.
+1) Customer KYC
+2) Customer booking
+3) CP rule engine
+4) Centralised property room availability listing
+5) Dynamic pricing 
+6) Notification - Activities , booking confirmation , room availability , cleaning/maintenance update , food order update
+7) User listing (to meet and chat) [premium feature][biz purpose] 
+8) VR preview of each room [Standard users]
+9) ML - Dynamic pricing , Room occupancy rate of each room , Wait time for room-type
+10) Add users to Wait queue
 
-3. Room Upgrade and Downgrade Options
-Allow users on the waitlist to opt for:
-An upgrade (from normal to executive suite) if available.
-A downgrade (from suite to a smaller room) if they prefer immediate availability.
 
-4. Dynamic Pricing
-Implement surge pricing based on:
-Demand.
-Availability.
-Season (peak/off-season).
-For example:
-Increase prices during weekends or holiday seasons.
-Offer discounts during off-peak times.
+Room types : 
 
-5. Customer Insights Dashboard
-Add an admin dashboard that provides insights:
-Room occupancy rates.
-Average waitlist time.
-Customer demographics.
-Use tools like Grafana or integrate custom charts with libraries like Chart.js or D3.js.
+1) Standard - Single (Solo) , Double (couple) , Family room [only complementary breakfast] [Hourly stay and normal stay][Theme based rooms][Adventure package][Silent room][Viewed based rooms][Pets friendly rooms]
 
-6. Multi-Property Management
-Extend the application to manage multiple properties (e.g., different hotels or branches).
-Include features for:
-Inter-property room transfers.
-Centralized waitlist management.
+2) Premium - Deluxe , Executive , Suite [all amenities inside][3 times buffet]
 
-7. Advanced Scheduler
-Enhance the scheduler to:
-Predict future room availability using historical data.
-Automate reports generation on bookings and waitlists.
+Amenities = Meditation chamber , Indoor games , Gym , Laundry + Iron , Spa , Bar , Pool , Activity hall (pay and meet members of hotel based on ur needs) [Standard users can use these amenities by paying] , Conference room [Premium users]
 
-8. Rule-Based System
-Implement a rule-based engine for room booking policies:
-Minimum stay requirements.
-Corporate or group booking rules.
-Cancellation policies with penalties.
 
-9. Waitlist Prioritization Algorithms
-Introduce advanced algorithms for prioritizing the waitlist based on:
-Booking history.
-Special occasions (e.g., birthdays, anniversaries).
-Membership tiers (e.g., Gold, Platinum).
+//Cancellation policy and Base rate for each room need to be fixed , along with amenity cost
 
-10. Data-Driven Insights for Users
-Display real-time availability and waitlist stats to users:
-Number of rooms available.
-Expected waiting time based on room type.
+Dynamic pricing formula :
 
-11. Advanced Search and Filters
-Allow users to search and filter rooms by:
-Amenities (Wi-Fi, AC, pool).
-Proximity to landmarks or attractions.
-Customer reviews.
+1) Final Price = Base Rate + (Base Rate * Demand Factor)
 
-12) Kitchen hygiene and product expiry check from IOT data of refrigrator
+// Increase prices during weekends or holiday seasons. Offer discounts during off-peak times.
 
-13) Location-Based Room Recommendations:
-
-a) Suggest rooms based on proximity to the user’s preferences (e.g., near the elevator or with a city view).
-Use geofencing for property-wide notifications (e.g., "Welcome to Treebo! Your room is ready.").
-Time of Day Customizations:
-
-b) Automatically adjust check-in/check-out reminders based on local time zones.
-Prioritize cleaning and maintenance updates for rooms during off-peak hours.
-Device-Aware User Experience:
-
-c) Provide a mobile-optimized interface for on-the-go users.
-Offer voice-assisted room control for smart devices (e.g., Alexa, Google Assistant).
-
-14) Activity-Based Notifications:
-
-Notify users about available upgrades, discounts, or dining options based on their activity (e.g., frequent bookings or waitlisted users).
-
-15) Send personalized notifications:
-"Room 102 is now available! Book before it's taken."
-"Based on your waitlist, an executive suite will free up tomorrow."
+2) Off peak => discounted price = Base Rate - discount(BaseRate)
 
 # Trivia
 
