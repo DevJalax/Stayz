@@ -4,16 +4,14 @@
 
 Features: 
 
-1) Customer KYC
-2) Customer booking
-3) CP rule engine
-4) Centralised property room availability listing
-5) Dynamic pricing 
-6) Notification - Activities , booking confirmation , room availability , cleaning/maintenance update , food order update
-7) User listing (to meet and chat) [premium feature][biz purpose] 
-8) VR preview of each room [Standard users]
-9) ML - Dynamic pricing , Room occupancy rate of each room , Wait time for room-type
-10) Add users to Wait queue
+Modules of this monolith :
+
+1) customer-manage()
+2) hotel-book()
+3) list-users() // only for premium users to connect in biz
+4) add-users-to-queue()
+5) vr-preview-room() 
+6) notify-users() // Activities , booking confirmation , room availability , cleaning/maintenance update , food order update
 
 
 Room types : 
